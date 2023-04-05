@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>CountrySearch</title>
+  </head>
+  <body>
+     <h1 class="title">Country Search  
+      <svg class="title_earth" width="50" height="50">
+      <use href="./img/symbol-defs.svg#icon-earth"></use>
+    </svg>
+     </h1>
+    <form class="search_form">
+      <input type="text" id="search-box" name="input">
+      <button type="submit" class="search_form-button">
+        <svg class="svg_search" width="17" height="17"><use href="./img/symbol-defs.svg#icon-search"></use></svg>
+        SEARCH</button>
+        <div class="box">
+       <ul class="list_proposed_country"></ul>
+        <div class="country-card"></div>
+    </div>
+    </form>
+     <a href="../index.html"><button class="back_button">Go Home</button></a>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
