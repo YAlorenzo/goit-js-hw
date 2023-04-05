@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector("#categories").children,o=e.length,t=[];console.log("Number of categories: ".concat(o));for(var l=0;l<e.length;l++)t.push(e[l]);t.forEach((function(e){var o=e.firstElementChild.textContent,t=e.lastElementChild.querySelectorAll("li").length;console.log("Category: ".concat(o)),console.log("Elements: ".concat(t))}))}();
+//# sourceMappingURL=task-01.bccd20ae.js.map
